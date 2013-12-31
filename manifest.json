@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Chipotle Group Order Filler",
-  "description": "Remebers and prefills your Chipotle group order",
+  "name": "Chipotle Order Automator",
+  "description": "Remebers your last Chipotle order and fills it in automatically",
   "version": "1.0",
 
   "permissions": ["storage"],
