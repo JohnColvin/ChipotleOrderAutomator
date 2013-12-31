@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chipotle Group Order Filler",
+  "description": "Remebers and prefills your Chipotle group order",
+  "version": "1.0",
+
+  "permissions": ["storage"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://order.chipotle.com/*"],
+      "js": ["jquery.js", "chipotle_filler.js"]
+    }
+  ]
+}
