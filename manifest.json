@@ -2,15 +2,15 @@
   "manifest_version": 2,
 
   "name": "Chipotle Order Automator",
-  "description": "Remebers your last Chipotle order and fills it in automatically",
-  "version": "1.0.1",
+  "description": "Remembers your last Chipotle order and fills it in automatically",
+  "version": "1.0.2",
 
   "permissions": ["storage"],
 
   "content_scripts": [
     {
       "matches": ["https://order.chipotle.com/*"],
-      "js": ["jquery.js", "chipotle_filler.js"]
+      "js": ["jquery.js", "chipotle_selector.js", "chipotle_filler.js", "chipotle_saver.js", "main.js"]
     }
   ]
 }
